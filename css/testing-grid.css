@@ -1,0 +1,25 @@
+body {
+    display: grid;
+    grid-template: auto auto auto auto / 1em auto auto 1em;
+    grid-template-areas: 
+        ". header ."
+        ". hero ."
+        ". content ."
+        ". footer .";
+}
+
+.header-pane {
+    grid-area: header;
+}
+
+.banner-pane {
+    grid-area: hero;
+}
+
+.content-pane {
+    grid-area: content;
+}
+
+.footer-pane {
+    grid-area: footer;
+}
