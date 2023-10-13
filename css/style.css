@@ -84,7 +84,7 @@ h2 {
 
 .hero-banner-pane {
     height: 45vh;
-    background: url(images/blog-image-hero.png);
+    background: url(/images/blog-image-hero.png);
     background-size: cover;
     padding: 2em 0 1.6em 1.5em;
     flex-wrap: wrap; 
